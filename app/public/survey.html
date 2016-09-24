@@ -177,7 +177,7 @@
 	      </div>
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
-	        <img id="matchImg" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg" alt="Pic of super adorable puppy">
+	        <img id="matchImg" src="http://cdn3-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-21.jpg" alt="Pic of user">
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -227,7 +227,16 @@
 	    	var userData = {
 	    		name: $("#name").val(),
 	    		photo: $("#photo").val(),
-	    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+	    		scores: [$("#q1").val(),
+	    		 $("#q2").val(), 
+	    		 $("#q3").val(), 
+	    		 $("#q4").val(), 
+	    		 $("#q5").val(), 
+	    		 $("#q6").val(), 
+	    		 $("#q7").val(), 
+	    		 $("#q8").val(), 
+	    		 $("#q9").val(), 
+	    		 $("#q10").val() ]
 	    	}
 
 
@@ -250,7 +259,7 @@
 		{
 			alert("Please fill out all fields before submitting!");
 		}
-    	
+
     	return false;
     });
 
